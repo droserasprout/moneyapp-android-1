@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_color_drawer_active">#e0e0e0</color>
+    <color name="color_primary">#2196f3</color>
+    <color name="color_primary_dark">#1976d2</color>
+    <color name="color_accent">#2196f3</color>
+
+    <color name="toolbar_popup_color">#616161</color>
+    <color name="bg_pressed_color">#bababa</color>
+
+    <color name="toolbar_expense_color">#f44336</color>
+    <color name="toolbar_income_color">#009688</color>
+    <color name="toolbar_transfer_color">#2196f3</color>
+
+    <color name="progress_expense_color">#f44336</color>
+    <color name="progress_income_color">#4caf50</color>
+
+    <color name="color_error">#f44336</color>
+
+    <color name="profit_chart_line">#2196f3</color>
+    <color name="expense_chart_line">#ff3d00</color>
+    <color name="income_chart_line">#009688</color>
+    <color name="balance_chart_line">#673ab7</color>
+
+    <color name="chart_other">#bababa</color>
+    <color name="color1">#f44336</color>
+    <color name="color2">#e91e63</color>
+    <color name="color3">#9c27b0</color>
+    <color name="color4">#673ab7</color>
+    <color name="color5">#3f51b5</color>
+    <color name="color6">#2196f3</color>
+    <color name="color7">#03a9f4</color>
+    <color name="color8">#00bcd4</color>
+    <color name="color9">#4caf50</color>
+    <color name="color10">#8bc34a</color>
+    <color name="color11">#cddc39</color>
+    <color name="color12">#ff9800</color>
+    <color name="color13">#ffc107</color>
+    <color name="color14">#ffeb3b</color>
+    <color name="color15">#ff5722</color>
+    <color name="color16">#795548</color>
+    <color name="color17">#607d8b</color>
+    <color name="color18">#009688</color>
+</resources>

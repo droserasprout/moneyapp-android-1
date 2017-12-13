@@ -1,0 +1,118 @@
+{
+  "accounts": [
+    {
+      "name": "Cash",
+      "color": "#009688"
+    },
+    {
+      "name": "Savings",
+      "color": "#3f51b5"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Food",
+      "type": 0,
+      "icon": "appliance_002.png"
+    },
+    {
+      "name": "Clothes",
+      "type": 0,
+      "icon": "holiday_035.png"
+    },
+    {
+      "name": "Shoes",
+      "type": 0,
+      "icon": "holiday_040.png"
+    },
+    {
+      "name": "Car",
+      "type": 0,
+      "icon": "transport_001.png"
+    },
+    {
+      "name": "Medicine",
+      "type": 0,
+      "icon": "medicine_037.png"
+    },
+    {
+      "name": "Children",
+      "type": 0,
+      "icon": "baby_009.png"
+    },
+    {
+      "name": "Mobile",
+      "type": 0,
+      "icon": "devices_011.png"
+    },
+    {
+      "name": "Internet",
+      "type": 0,
+      "icon": "devices_005.png"
+    },
+    {
+      "name": "Utilities payments",
+      "type": 0,
+      "icon": "furniture_049.png"
+    },
+    {
+      "name": "Rental",
+      "type": 0,
+      "icon": "basic_001.png"
+    },
+    {
+      "name": "Bad Habits",
+      "type": 0,
+      "icon": "medicine_035.png",
+      "subcategories": [
+        "Alcohol",
+        "Tobacco"
+      ]
+    },
+    {
+      "name": "Vacation",
+      "type": 0,
+      "icon": "holiday_020.png"
+    },
+    {
+      "name": "Household Chemicals",
+      "type": 0,
+      "icon": "appliance_003.png"
+    },
+    {
+      "name": "Appliances",
+      "type": 0,
+      "icon": "appliance_004.png"
+    },
+    {
+      "name": "Sport",
+      "type": 0,
+      "icon": "navigation_025.png"
+    },
+    {
+      "name": "Gifts",
+      "type": 0,
+      "icon": "holiday_012.png"
+    },
+    {
+      "name": "Salary",
+      "type": 1,
+      "icon": "finance_025.png"
+    },
+    {
+      "name": "Advance",
+      "type": 1,
+      "icon": "finance_030.png"
+    },
+    {
+      "name": "Bonus",
+      "type": 1,
+      "icon": "finance_004.png"
+    },
+    {
+      "name": "Dividend Payment",
+      "type": 1,
+      "icon": "finance_001.png"
+    }
+  ]
+}

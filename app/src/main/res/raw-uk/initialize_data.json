@@ -1,0 +1,128 @@
+{
+  "accounts": [
+    {
+      "name": "Готівкові",
+      "color": "#009688"
+    },
+    {
+      "name": "Заощадження",
+      "color": "#3f51b5"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Продукти",
+      "type": 0,
+      "icon": "appliance_002.png"
+    },
+    {
+      "name": "Одяг",
+      "type": 0,
+      "icon": "holiday_035.png"
+    },
+    {
+      "name": "Взуття",
+      "type": 0,
+      "icon": "holiday_040.png"
+    },
+    {
+      "name": "Автомобіль",
+      "type": 0,
+      "icon": "transport_001.png"
+    },
+    {
+      "name": "Аптека",
+      "type": 0,
+      "icon": "medicine_037.png"
+    },
+    {
+      "name": "Діти",
+      "type": 0,
+      "icon": "baby_009.png"
+    },
+    {
+      "name": "Мобільний зв'язок",
+      "type": 0,
+      "icon": "devices_011.png"
+    },
+    {
+      "name": "Інтернет",
+      "type": 0,
+      "icon": "devices_005.png"
+    },
+    {
+      "name": "Комунальні платежі",
+      "type": 0,
+      "icon": "furniture_049.png"
+    },
+    {
+      "name": "Оренда",
+      "type": 0,
+      "icon": "basic_001.png"
+    },
+    {
+      "name": "Шкідливі звички",
+      "type": 0,
+      "icon": "medicine_035.png",
+      "subcategories": [
+        "Алкоголь",
+        "Тютюн"
+      ]
+    },
+    {
+      "name": "Відпустку",
+      "type": 0,
+      "icon": "holiday_020.png"
+    },
+    {
+      "name": "Громадський транспорт",
+      "type": 0,
+      "icon": "transport_008.png"
+    },
+    {
+      "name": "Подарунки",
+      "type": 0,
+      "icon": "holiday_012.png"
+    },
+    {
+      "name": "Відпочинок та розваги",
+      "type": 0,
+      "icon": "holiday_022.png"
+    },
+    {
+      "name": "Побутова техніка",
+      "type": 0,
+      "icon": "appliance_004.png"
+    },
+    {
+      "name": "Побутова хімія",
+      "type": 0,
+      "icon": "appliance_003.png"
+    },
+    {
+      "name": "Спорт",
+      "type": 0,
+      "icon": "navigation_025.png"
+    },
+    {
+      "name": "Заробітня плата",
+      "type": 1,
+      "icon": "finance_025.png"
+    },
+    {
+      "name": "Аванс",
+      "type": 1,
+      "icon": "finance_030.png"
+    },
+    {
+      "name": "Премія",
+      "type": 1,
+      "icon": "finance_004.png"
+    },
+    {
+      "name": "Дивіденди",
+      "type": 1,
+      "icon": "finance_001.png"
+    }
+  ]
+}

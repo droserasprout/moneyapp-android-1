@@ -1,0 +1,94 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+
+        <item name="android:dialogTheme">@style/CustomDialog</item>
+    </style>
+
+    <style name="CustomDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">false</item>
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorAccent">@color/color_accent</item>
+    </style>
+
+    <style name="ToolBarStyle">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <style name="NavigationViewStyle" parent="Theme.AppCompat.Light">
+        <item name="itemTextColor">@color/navigation_text</item>
+        <item name="itemIconTint">@color/navigation_icon</item>
+    </style>
+
+    <style name="Money.TextAppearance.Title" parent="TextAppearance.AppCompat.Title" />
+
+    <style name="Money.TextAppearance.Caption" parent="TextAppearance.AppCompat.Caption" />
+
+    <style name="Money.TextAppearance.Subhead" parent="TextAppearance.AppCompat.Subhead" />
+
+    <style name="Money.TextAppearance.Subhead.Inverse" parent="TextAppearance.AppCompat.Subhead.Inverse" />
+
+    <style name="Money.TextAppearance.Headline" parent="TextAppearance.AppCompat.Headline" />
+
+    <style name="Money.TextAppearance.Body1" parent="TextAppearance.AppCompat.Body1" />
+
+    <style name="Money.TextAppearance.Body2" parent="TextAppearance.AppCompat.Body2" />
+
+    <style name="Money.TextAppearance.Display1" parent="TextAppearance.AppCompat.Display1" />
+
+    <style name="Money.TextAppearance.Display2" parent="TextAppearance.AppCompat.Display2" />
+
+
+    <style name="Money.TextAppearance.ListCaption" parent="Money.TextAppearance.Caption">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Money.TextAppearance.Error" parent="Money.TextAppearance.Caption">
+        <item name="android:textColor">@color/color_error</item>
+    </style>
+
+    <style name="Money.TextAppearance.DrawerHeader" parent="Money.TextAppearance.Caption">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Money.TextAppearance.ListSubhead" parent="Money.TextAppearance.Body2">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Money.TextAppearance.NoData" parent="Money.TextAppearance.Body1">
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Money.TextAppearance.Expense" parent="Money.TextAppearance.Caption">
+        <item name="android:textColor">@color/toolbar_expense_color</item>
+    </style>
+
+    <style name="Money.TextAppearance.Income" parent="Money.TextAppearance.Caption">
+        <item name="android:textColor">@color/toolbar_income_color</item>
+    </style>
+
+    <style name="CalculatorButton">
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:textColor">@color/color_primary</item>
+        <item name="android:textAppearance">@style/Money.TextAppearance.Headline</item>
+    </style>
+
+    <!-- Buttons -->
+    <!-- Regular -->
+    <style name="Money.Button" parent="Widget.AppCompat.Button" />
+
+    <!-- Raised -->
+    <style name="Money.Button.Colored" parent="Widget.AppCompat.Button.Colored" />
+
+    <!-- Flat -->
+    <style name="Money.Button.Borderless" parent="Widget.AppCompat.Button.Borderless" />
+
+    <!-- Colored flat -->
+    <style name="Money.Button.Borderless.Colored" parent="Widget.AppCompat.Button.Borderless.Colored" />
+
+</resources>

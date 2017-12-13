@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/unfold_all"
+        android:icon="@drawable/ic_action_unfold"
+        android:title="@string/unfold_all"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/fold_all"
+        android:icon="@drawable/ic_action_fold"
+        android:title="@string/fold_all"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/search_transactions"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/group_by"
+        android:icon="@drawable/ic_action_grouping"
+        android:title="@string/group_by"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/export_transactions"
+        android:title="@string/export_transactions"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/import_transactions"
+        android:title="@string/import_transactions"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,128 @@
+{
+  "accounts": [
+    {
+      "name": "Наличные",
+      "color": "#009688"
+    },
+    {
+      "name": "Сбережения",
+      "color": "#3f51b5"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Продукты",
+      "type": 0,
+      "icon": "appliance_002.png"
+    },
+    {
+      "name": "Одежда",
+      "type": 0,
+      "icon": "holiday_035.png"
+    },
+    {
+      "name": "Обувь",
+      "type": 0,
+      "icon": "holiday_040.png"
+    },
+    {
+      "name": "Автомобиль",
+      "type": 0,
+      "icon": "transport_001.png"
+    },
+    {
+      "name": "Аптека",
+      "type": 0,
+      "icon": "medicine_037.png"
+    },
+    {
+      "name": "Дети",
+      "type": 0,
+      "icon": "baby_009.png"
+    },
+    {
+      "name": "Мобильная связь",
+      "type": 0,
+      "icon": "devices_011.png"
+    },
+    {
+      "name": "Интернет",
+      "type": 0,
+      "icon": "devices_005.png"
+    },
+    {
+      "name": "Коммунальные платежи",
+      "type": 0,
+      "icon": "furniture_049.png"
+    },
+    {
+      "name": "Аренда",
+      "type": 0,
+      "icon": "basic_001.png"
+    },
+    {
+      "name": "Вредные привычки",
+      "type": 0,
+      "icon": "medicine_035.png",
+      "subcategories": [
+        "Алкоголь",
+        "Табак"
+      ]
+    },
+    {
+      "name": "Отпуск",
+      "type": 0,
+      "icon": "holiday_020.png"
+    },
+    {
+      "name": "Общественный транспорт",
+      "type": 0,
+      "icon": "transport_008.png"
+    },
+    {
+      "name": "Подарки",
+      "type": 0,
+      "icon": "holiday_012.png"
+    },
+    {
+      "name": "Отдых и развлечения",
+      "type": 0,
+      "icon": "holiday_022.png"
+    },
+    {
+      "name": "Бытовая техника",
+      "type": 0,
+      "icon": "appliance_004.png"
+    },
+    {
+      "name": "Бытовая химия",
+      "type": 0,
+      "icon": "appliance_003.png"
+    },
+    {
+      "name": "Спорт",
+      "type": 0,
+      "icon": "navigation_025.png"
+    },
+    {
+      "name": "Заработная плата",
+      "type": 1,
+      "icon": "finance_025.png"
+    },
+    {
+      "name": "Аванс",
+      "type": 1,
+      "icon": "finance_030.png"
+    },
+    {
+      "name": "Премия",
+      "type": 1,
+      "icon": "finance_004.png"
+    },
+    {
+      "name": "Дивиденды",
+      "type": 1,
+      "icon": "finance_001.png"
+    }
+  ]
+}

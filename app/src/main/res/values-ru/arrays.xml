@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="budget_types">
+        <item>Единожды</item>
+        <item>Периодически</item>
+    </string-array>
+
+    <string-array name="budget_types_description">
+        <item>Бюджетный план будет создан единожды и не будет повторяться</item>
+        <item>Бюджетный план будет повторяться каждый период пока вы его не удалите</item>
+    </string-array>
+
+    <string-array name="account_types">
+        <item>Наличные</item>
+        <item>Накопление</item>
+        <item>Банковский счёт</item>
+        <item>Банковская карта</item>
+    </string-array>
+
+    <string-array name="account_types_description">
+        <item>Информация по наличным.</item>
+        <item>Информация по накоплениям.</item>
+        <item>Информация по банковскому счёту.</item>
+        <item>Информация по банковской карте.</item>
+    </string-array>
+
+    <string-array name="export_formats">
+        <item>Excel (.xls)</item>
+        <item>CSV (.csv)</item>
+    </string-array>
+
+    <string-array name="import_formats">
+        <item>MoneyApp (.csv)</item>
+        <item>Financisto (.csv)</item>
+        <item>Financius (.csv)</item>
+        <item>Monefy (.csv)</item>
+        <item>MyMoney (.db)</item>
+        <item>QIF (.qif)</item>
+        <item>Тинькофф банк (.csv)</item>
+        <item>ViZi Budget (.csv)</item>
+    </string-array>
+
+</resources>

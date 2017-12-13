@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="category_icon">24dp</dimen>
+    <dimen name="category_big_icon">56dp</dimen>
+    <dimen name="contact_icon">40dp</dimen>
+
+    <!-- drawer -->
+    <dimen name="side_pane_width">240dp</dimen>
+    <dimen name="partial_pane_width">64dp</dimen>
+</resources>

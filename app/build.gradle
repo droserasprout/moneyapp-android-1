@@ -1,0 +1,111 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+def Properties props = {
+    def Properties p = new Properties()
+    def File f = file('../build.properties')
+
+    if (f.exists()) {
+        FileInputStream fis = new FileInputStream(f)
+        p.load(fis)
+        fis.close()
+    }
+
+    return p
+}.call();
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        multiDexEnabled true
+        applicationId "com.cactusteam.money"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 63
+        versionName "1.8.3"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("../../keys/store.jks")
+            storePassword props['sign.password']
+            keyAlias "key0"
+            keyPassword props['sign.password']
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+    }
+    lintOptions {
+        abortOnError true
+        disable 'InvalidPackage'
+    }
+    dexOptions {
+        javaMaxHeapSize "2g"
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+}
+
+repositories {
+    maven { url "https://jitpack.io" }
+    mavenCentral()
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support:cardview-v7:25.2.0'
+    compile 'com.android.support:recyclerview-v7:25.2.0'
+    compile 'com.android.support:design:25.2.0'
+    compile 'com.google.android.gms:play-services-analytics:10.2.0'
+    compile 'org.apache.commons:commons-lang3:3.4'
+    compile 'org.apache.commons:commons-compress:1.10'
+    compile 'commons-io:commons-io:2.4'
+    compile 'org.apache.poi:poi:3.13'
+    compile 'de.greenrobot:greendao:2.1.0'
+    compile 'net.sf.opencsv:opencsv:2.3'
+
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+    compile 'io.reactivex:rxandroid:1.2.1'
+    compile 'io.reactivex:rxjava:1.2.6'
+    compile 'io.reactivex:rxkotlin:0.60.0'
+
+    compile 'com.github.PhilJay:MPAndroidChart:v3.0.1'
+    compile 'com.github.woxthebox:draglistview:1.3'
+
+    compile 'com.dropbox.core:dropbox-core-sdk:2.1.2'
+    compile 'com.squareup.okhttp:okhttp:2.7.5'
+    compile 'com.squareup.okhttp3:okhttp:3.3.1'
+
+    compile project(':sync')
+}
+
+task prepareApk(dependsOn: build, type: Copy) {
+    description = "Copies APKs and Proguard mappings to the deploy directory"
+
+    from 'build/outputs/apk', 'build/outputs/mapping'
+    include '**/money-app-release.apk', '**/mapping.txt'
+    into '../../deploy'
+}

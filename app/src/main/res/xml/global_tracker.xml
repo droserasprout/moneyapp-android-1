@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="ga_sessionTimeout">300</integer>
+    <string name="ga_trackingId">UA-63346077-1</string>
+
+
+    <!-- Screen names -->
+    <screenName name="com.cactusteam.money.ui.activity.AccountActivity">
+        Account Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.BalanceReportActivity">
+        Balance Report Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.BudgetPlanActivity">
+        Budget Plan Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.CategoriesReportActivity">
+        Categories Report Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.CategoryActivity">
+        Category Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.DataManagementActivity">
+        Data Management Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.DebtActivity">
+        Debt Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.EditAccountActivity">
+        Edit Account Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.EditBudgetPlanActivity">
+        Edit Budget Plan Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.EditCategoryActivity">
+        Edit Category Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.EditDebtActivity">
+        Edit Debt Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.EditFinancialOptionsActivity">
+        Edit Financial Options Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.EditTransactionActivity">
+        Edit Transaction Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.EditTransactionPatternActivity">
+        Edit Transaction Pattern Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.ExportTransactionsActivity">
+        Export Transactions Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.FilteredTransactionsActivity">
+        Filtered Transactions Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.MainActivity">
+        Main Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.FirstStartActivity">
+        First Start Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.NewTransactionActivity">
+        New Transaction Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.NewTransactionPatternActivity">
+        New Transaction Pattern Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.PasswordActivity">
+        Password Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.PasswordManagementActivity">
+        Password Management Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.SplashActivity">
+        Splash Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.SubcategoriesReportActivity">
+        Subcategories Report Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.SubcategoryActivity">
+        Subcategory Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.TagsReportActivity">
+        Tags Report Activity
+    </screenName>
+    <screenName name="com.cactusteam.money.ui.activity.ImportTransactionsActivity">
+        Import Transactions Activity
+    </screenName>
+</resources>

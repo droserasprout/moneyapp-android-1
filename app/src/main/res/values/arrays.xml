@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="budget_types">
+        <item>One Time</item>
+        <item>Periodical</item>
+    </string-array>
+
+    <string-array name="budget_types_description">
+        <item>Budget plan will be created only one time and it will not be created after finished</item>
+        <item>Budget plan will be created every period while you don\'t delete it</item>
+    </string-array>
+
+    <string-array name="account_types">
+        <item>Cash</item>
+        <item>Savings</item>
+        <item>Bank Account</item>
+        <item>Card</item>
+    </string-array>
+
+    <string-array name="account_types_description">
+        <item>Information about cash.</item>
+        <item>Information about savings.</item>
+        <item>Information about bank account.</item>
+        <item>Information about card.</item>
+    </string-array>
+
+    <string-array name="export_formats">
+        <item>Excel (.xls)</item>
+        <item>CSV (.csv)</item>
+    </string-array>
+
+    <string-array name="import_formats">
+        <item>MoneyApp (.csv)</item>
+        <item>Financisto (.csv)</item>
+        <item>Financius (.csv)</item>
+        <item>Monefy (.csv)</item>
+        <item>MyMoney (.db)</item>
+        <item>QIF (.qif)</item>
+        <item>Tinkoff Bank (.csv)</item>
+        <item>ViZi Budget (.csv)</item>
+    </string-array>
+
+</resources>
